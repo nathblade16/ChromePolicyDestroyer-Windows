@@ -1,3 +1,5 @@
-```shell
-sudo sh -c "mkdir -p /etc/opt/chrome/policies/managed ; cd /etc/opt/chrome/policies/managed ; wget https://github.com/Inglan2/PolicyDestroyer-Linux/raw/main/managed_policies.json"
-```
+instructions (work in progress):
+install python
+download the source code(both python file and json)
+extract it
+run the python file as administrator, if you get any errors about missing modules, install them using pip
