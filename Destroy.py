@@ -18,6 +18,7 @@ def destroy():
     raise ValueError("policies file missing, did you download the all the files?")
   decoded_policies = json.loads(policies)
   for key, value in decoded_policies.items():
+    print("destroying policy" + key)
     set_reg(key, value)
 if(choice[0].lower() = "y"):
   destroy()
